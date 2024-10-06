@@ -1,10 +1,11 @@
 # Site settings
 title: Yu Wang
 email: annawang.2123@gmail.com
-url:  #https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+url: #https://github.com/jeromelachaud/freelancer-theme
+description: 
+#"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+skills: "Innovative Solution Enthusiast - Medical Device Designer - Trained Dancer"
 meta_author: Yu Wang
 
 # Google webmaster tools
@@ -27,7 +28,7 @@ disqus_shortname: myshortname
 color:
   primary: 98b69a #89AB8B #80B3FF
   primary-rgb: "54,67,55" #"128,179,255"
-  secondary: 6b966e #C2DBB9 #FD6E8A
+  secondary: 6b9675 #C2DBB9 #FD6E8A
   secondary-dark: 89AB8B #A2122F
 
 # Footer settings
