@@ -15,10 +15,25 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
+
+            <!-- Loop through images and descriptions alternately -->
+            {% for i in (0..post.img.size) %}
+              {% if post.img[i] %}
+              <img src="img/portfolio/{{ post.img[i] }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+              {% endif %}
+
+              {% if post.description[i] %}
+              <p>{{ post.description[i] }}</p>
+              {% endif %}
+            {% endfor %}
+            
+            <!--
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
+            -->
+            
             <ul class="list-inline item-details">
               {% if post.client %}
               <li>Client:
