@@ -52,19 +52,22 @@
               {% endif %}
             </ul>
 
-            <!-- Add a Learn More button with the URL -->
-            {% if post.url %}
-            <!-- <div class="col-lg-8 col-lg-offset-2 text-center mb-4"> -->
-              <button type="button" class="btn btn-primary" onclick="window.location.href='{{ post.url | uri_escape }}'">
-                <i class="fa fa-external-link"></i> Learn More
-              </button>
-            <!-- </div> -->
-            {% endif %}
-
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
-            </div>
+            <!-- <ul class="list-inline item-details"> -->
+              <!-- Add a Learn More button with the URL -->
+              {% if post.project_url %}
+              <div class="col-lg-8 col-lg-offset-2 text-center mb-4">
+                <button type="button" class="btn btn-primary" onclick="window.location.href='{{ post.url | uri_escape }}'">
+                  <i class="fa fa-external-link"></i> Learn More
+                </button>
+              </div>
+              {% endif %}
+  
+              <div class="col-lg-8 col-lg-offset-2 text-center">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                  Close
+                </button>
+              </div>
+            <!-- <ul> -->
           </div>
         </div>
       </div>
