@@ -5,11 +5,12 @@ date: 2014-07-18
 img: 
 - jigsorter.png
 - vm350.png
-alt: jigsorter.png
+alt: Jigsorter
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
 description:
 - Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
 - 11111
+url: "https://drive.google.com/file/d/1IOC1IrVkii8ffG2gSVQYy-mI9XbNJ4Fa/view?usp=drive_link"
 ---
